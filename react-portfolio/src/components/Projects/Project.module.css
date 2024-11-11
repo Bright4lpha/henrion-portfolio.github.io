@@ -1,21 +1,24 @@
 @import "../../vars.css";
 
 .container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #57bc5c 0%, #13531d 100%);
-    box-shadow: 0 16px 14px 0 #042d0c;
-    padding: 18px 24px;
-    max-width: 345px;
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
 }
 
 .image {
     margin-bottom: 26px;
+    max-width: 1200px;
 }
 
 .title {
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -23,6 +26,19 @@
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
+}
+
+.soustitre {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.skill {
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
 }
 
 .skills {
@@ -33,14 +49,6 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
-}
-
-.skill {
-    font-size: 25px;
-    font-weight: 400;
-    border-radius: 100px;
-    background: var(--color-dark);
-    padding: 2px 22px;
 }
 
 .links {
@@ -58,9 +66,4 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
-}
-
-.card {
-    text-decoration: none;
-    color: var(--color-text);
 }

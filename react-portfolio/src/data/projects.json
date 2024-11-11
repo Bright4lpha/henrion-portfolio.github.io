@@ -1,21 +1,57 @@
 [
     {
-        "title": "Jeu vidéo",
+        "title": "Jeu vidéo - Panikabor",
         "imageSrc": "projects/cmp5_jv.png",
         "description": "Création d'un jeu vidéo de plateau en 2D avec possibilité de jouer contre l'ordinateur.",
         "skills": ["Java", "IA", "Design"],
-        "source": "https://github.com/Bright4lpha/Panikabor"
+        "source": "https://github.com/Bright4lpha/Panikabor",
+        "p1": "Le but est de construire un jeu de rôle sous la forme d’un jeu de plateau, en respectant les contraintes imposées par le cahier des charges donné par les professeurs (jeu de plateau, 1 à 4 joueurs, moins de 15min). Les règles et formes du jeu sont très ouvertes.",
+        "img1": "projects/panikabor2.png",
+        "t2": "Préparation",
+        "p2": "La première étape consiste à effectuer un descriptif détaillé du projet. Il s’agit de choisir l’ensemble des éléments du jeu. Quelles seront les caractéristiques des joueurs ? Forment-ils une équipe ou s’affrontent-ils ? Quelles sont les règles et les objectifs du jeu ? J’ai décidé de créer un jeu collaboratif où les joueurs s’associent pour combattre les ennemis. Le jeu prend place dans un vaisseau spacial attaqué par des aliens. Le plateau représente le vaisseau. Chaque joueur a des capacités spéciales (plus de vies, plusieurs lancés de dé, …) et les aliens aussi. Le but est de réparer le vaisseau et de s’enfuir.",
+        "t3": "Implémentation",
+        "p3": "Ensuite il faut choisir les technologies, l’architecture du projet et les structures de données. J’ai choisi le Java et une bibliothèque graphique développée par des étudiants de l’IUT de Calais (MG2D).",
+        "img3": "projects/sae_c2_1.png",
+        "t4": "Design",
+        "p4": "Il faut également créer les designs des personnages et du plateau. En créant des croquis et en communiquant mes idées, mes amies m’ont aidées à créer les designs dont j’avais besoins.",
+        "img4": "projects/panikabor.png",
+        "t5": "Développement",
+        "p5": "Le développement s’effectue étape par étape. On effectue d’abord des déplacements, puis on ajoute plusieurs joueurs. On ajoute ensuite les capacités de chaque joueur. Il faut aussi ajouter l’affichage graphique, les menus, les mentions légales, …",
+        "img5": "projects/sae_c2.png"
     },
     {
         "title": "Traitement d'images",
-        "imageSrc": "projects/sae_c2_2.png",
+        "imageSrc": "projects/sae_c2.png",
         "description": "Supprimer la pollution lumineuse d'images astronomiques.",
-        "skills": ["Python", "C++", "OpenCV"]
+        "skills": ["Python", "C++", "OpenCV"],
+        "p1": "Aujourd’hui la pollution lumineuse provoquée par les éclairages rend impossible l’observation du ciel nocturne. Les photos sont brouillées par cette lumière envahissante et rend le travail des chercheurs extrêmement difficile. Comment peut-on contribuer à la recherche astronomique ?",
+        "img1": "projects/sae_c2_1.png",
+        "t2": "Traiter la pollution lumineuse",
+        "p2": "La pollution lumineuse est un signal supplémentaire dans l’image. La forme de ce signal est celui d’un gradient ajouté. Pour retirer le gradient il faut d’abord l’estimer. Pour calculer le gradient on peut le considérer comme linéaire (c’est une bonne approximation). Si on souhaite un résultat plus précis on peut utiliser d’autres méthodes comme utiliser des polynômes d’ordre supérieur. Ensuite on peut retirer le gradient. On soustraire le gradient estimé précédemment à l’image de départ.",
+        "t3": "Le traitement basique",
+        "p3": "Le traitement basique prend une image non traitée et l’image du gradient et fais la soustraction des deux.",
+        "img3": "projects/sae_c2_1.png",
+        "t4": "Le traitement intermédiaire",
+        "p4": "Le traitement intermédiaire prend une image non traitée et applique le filtre de Sobel.",
+        "img4": "projects/sae_c2_2.png",
+        "t5": "Le traitement avancé",
+        "p5": "Le traitement avancé prend une image non traitée et applique un filtre de fréquence, qui rend flou l’image de base. Il est également possible de répéter l’étape plusieurs fois pour avoir un meilleur résultat.",
+        "img5": "projects/sae_c2.png"
     },
     {
         "title": "Site de Gestion de stocks",
         "imageSrc": "projects/lara.png",
         "description": "Site de gestion de stocks en Laravel.",
-        "skills": ["Laravel", "PHP", "SQL"]
+        "skills": ["Laravel", "PHP", "SQL"],
+        "p1": "Le projet a pour but de créer un site en PHP en utilisant le framework Laravel. Le site doit permettre de gérer les stocks d’un magasin en ajoutant, modifiant, supprimant des éléments. Il est possible de passer des commandes, de gérer les utilisateurs et leurs droits. Le site possède une connexion sécurisée. Ensuite, en utilisant la même base, on a crée une API.",
+        "img1": "projects/lara.png",
+        "t2": "Découverte du framework",
+        "p2": "La première étape a été de découvrir le framework et le PHP. J’ai appris les commandes et l’architecture de Laravel.",
+        "t3": "Développement",
+        "p3": "Ensuite, nous avons réalisé des maquettes pour savoir quelles étaient les informations nécessaires, pour créer la base de données et ensuite se répartir le travail.",
+        "img3": "projects/lara_2.png",
+        "t4": "API",
+        "p4": "Nous avons ensuite adapté le site pour en faire une API. Nous avons ajouté une option de corbeille lors de la suppression. Nous avons réalisé un swagger pour tester les requêtes.",
+        "img4": "projects/lara_3.png"
     }
 ]
