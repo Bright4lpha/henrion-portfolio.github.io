@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Jeu vidéo",
+        "imageSrc": "projects/cmp5_jv.png",
+        "description": "Création d'un jeu vidéo de plateau en 2D avec possibilité de jouer contre l'ordinateur.",
+        "skills": ["Java", "IA", "Design"],
+        "source": "https://github.com/Bright4lpha/Panikabor"
+    },
+    {
+        "title": "Traitement d'images",
+        "imageSrc": "projects/sae_c2_2.png",
+        "description": "Supprimer la pollution lumineuse d'images astronomiques.",
+        "skills": ["Python", "C++", "OpenCV"]
+    },
+    {
+        "title": "Site de Gestion de stocks",
+        "imageSrc": "projects/lara.png",
+        "description": "Site de gestion de stocks en Laravel.",
+        "skills": ["Laravel", "PHP", "SQL"]
+    }
+]

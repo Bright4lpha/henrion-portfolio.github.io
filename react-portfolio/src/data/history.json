@@ -1,0 +1,37 @@
+[
+    {
+        "role": "Alternante - Développeuse",
+        "organisation": "ArcelorMittal",
+        "startDate": "Sept, 2023",
+        "endDate": "Aujourd'hui",
+        "experiences": [
+            "Administration GLPI",
+            "Développement d'outils internes (PHP)"
+        ],
+        "imageSrc": "history/am.png"
+    },
+    {
+        "role": "Étudiante BUT Informatique",
+        "organisation": "IUT de Calais",
+        "startDate": "Sept, 2022",
+        "endDate": "Aujourd'hui",
+        "experiences": [
+            "Développement Front-End",
+            "Développement Back-End",
+            "Gestion de projet"
+        ],
+        "imageSrc": "history/iut.jpg"
+    },
+    {
+        "role": "Baccalauréat Général",
+        "organisation": "Lycée de l'Europe",
+        "startDate": "Sep, 2019",
+        "endDate": "Juin, 2022",
+        "experiences": [
+            "Mathématiques",
+            "NSI (Numérique et Sciences Informatiques)",
+            "Mention : Très Bien avec Félicitations du Jury"
+        ],
+        "imageSrc": "history/lycee.jpg"
+    }
+]

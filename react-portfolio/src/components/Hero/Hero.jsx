@@ -7,17 +7,21 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hi, I'm Mathilde</h1>
-                <p className={styles.description}>I'm a full stack developer</p>
+                <h1 className={styles.title}>Salut, c'est Mathilde !</h1>
+                <p className={styles.description}>
+                    Je suis développeuse informatique en 3ème année de BUT
+                    Informatique à l'IUT de Calais. Découvrez mon CV et mes
+                    projets !
+                </p>
                 <a
                     href="mailto:mathi.henrion@gmail.com"
                     className={styles.contactBtn}
                 >
-                    Contact Me
+                    Contactez-moi
                 </a>
             </div>
             <img
-                src={getImageUrl("hero/heroImage.png")}
+                src={getImageUrl("hero/moi.png")}
                 alt="hero"
                 className={styles.heroImage}
             />
