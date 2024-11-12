@@ -11,13 +11,11 @@
         "p2": "La première étape consiste à effectuer un descriptif détaillé du projet. Il s’agit de choisir l’ensemble des éléments du jeu. Quelles seront les caractéristiques des joueurs ? Forment-ils une équipe ou s’affrontent-ils ? Quelles sont les règles et les objectifs du jeu ? J’ai décidé de créer un jeu collaboratif où les joueurs s’associent pour combattre les ennemis. Le jeu prend place dans un vaisseau spacial attaqué par des aliens. Le plateau représente le vaisseau. Chaque joueur a des capacités spéciales (plus de vies, plusieurs lancés de dé, …) et les aliens aussi. Le but est de réparer le vaisseau et de s’enfuir.",
         "t3": "Implémentation",
         "p3": "Ensuite il faut choisir les technologies, l’architecture du projet et les structures de données. J’ai choisi le Java et une bibliothèque graphique développée par des étudiants de l’IUT de Calais (MG2D).",
-        "img3": "projects/sae_c2_1.png",
         "t4": "Design",
         "p4": "Il faut également créer les designs des personnages et du plateau. En créant des croquis et en communiquant mes idées, mes amies m’ont aidées à créer les designs dont j’avais besoins.",
         "img4": "projects/panikabor.png",
         "t5": "Développement",
-        "p5": "Le développement s’effectue étape par étape. On effectue d’abord des déplacements, puis on ajoute plusieurs joueurs. On ajoute ensuite les capacités de chaque joueur. Il faut aussi ajouter l’affichage graphique, les menus, les mentions légales, …",
-        "img5": "projects/sae_c2.png"
+        "p5": "Le développement s’effectue étape par étape. On effectue d’abord des déplacements, puis on ajoute plusieurs joueurs. On ajoute ensuite les capacités de chaque joueur. Il faut aussi ajouter l’affichage graphique, les menus, les mentions légales, …"
     },
     {
         "title": "Traitement d'images",
@@ -53,5 +51,18 @@
         "t4": "API",
         "p4": "Nous avons ensuite adapté le site pour en faire une API. Nous avons ajouté une option de corbeille lors de la suppression. Nous avons réalisé un swagger pour tester les requêtes.",
         "img4": "projects/lara_3.png"
+    },
+    {
+        "title": "GLPI",
+        "imageSrc": "projects/glpi2.png",
+        "description": "Administration de GLPI",
+        "skills": ["GLPI", "PHP", "SQL"],
+        "p1": "Missions en entreprise : administration de l'outil GLPI",
+        "t2": "Gestionnaire Libre de Parc Informatique",
+        "p2": "Je suis administratrice de GLPI. Je gère les droits et la maintenance. Je mets à jour les informatiions, j'ajoute des fonctionnalités, je développe des plugins et j'automatise les processus.",
+        "t3": "Prendre en main l'outil",
+        "p3": "Dans un premier temps, j'ai pris connaissance du logiciel très complet.",
+        "t4": "Développement",
+        "p4": "Je développe des plugins pour ajouter des fonctionnalités. J'automatise les processus pour gagner du temps."
     }
 ]
