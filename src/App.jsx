@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Project } from "./components/Projects/Project";
 import { Projects } from "./components/Projects/Projects";
 
-import projects from "./data/projects.json";
+import projects from "../react-portfolio/src/data/projects.json";
 
 function App() {
     return (
