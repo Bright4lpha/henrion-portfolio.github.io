@@ -9,7 +9,7 @@ export const About = () => {
             <h2 className={styles.title}>À propos</h2>
             <div className={styles.content}>
                 <img
-                    src={getImageUrl("about/aboutImage.png")}
+                    src={getImageUrl("about/info.png")}
                     alt="Me sitting with a laptop"
                     className={styles.aboutImage}
                 />
@@ -40,19 +40,17 @@ export const About = () => {
                             </p>
                         </div>
                     </li>
-                    {/* <li className={styles.aboutItem}>
-                        <img
-                            src={getImageUrl("about/cursorIcon.png")}
-                            alt="UI icon"
-                        />
+                    <li className={styles.aboutItem}>
+                        <img src={getImageUrl("about/music.png")} alt="Hobby" />
                         <div className={styles.aboutItemText}>
-                            <h3>UI Designer</h3>
+                            <h3>Centres d'intérets</h3>
                             <p>
-                                I have designed multiple landing pages and have
-                                created design systems as well
+                                J'aime apprendre de nouvelles choses, joueur et
+                                écouter de la musique. J'aime aussi faire du
+                                running avec mes amis.
                             </p>
                         </div>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </section>
